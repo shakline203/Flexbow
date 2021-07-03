@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    /*align-items: flex-start;*/
+    /*align-items: flex-end;*/
+    /*flex-direction: column;*/
+    justify-content: flex-start;
+    margin-right: -100px;
+
+}
+
+
+.container div{
+    background-color:darkgray;
+    border: 1px solid brown;
+    padding: 1.5rem;
+    flex-basis:20%;
+    margin-right: 100px;
+    
+}
+
+.item-1{
+    /*flex: 1;
+    /*order: 2;*/
+ 
+
+}
+.item-2{
+    /*flex:1;
+    /*order: 3;*/
+
+}
+.item-3{
+    /*order: 1;*/
+    /*flex:1;*/
+
+}
+@media (max-width:640px){
+    .container{
+        flex-direction: column;
+    }
+}
